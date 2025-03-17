@@ -4,7 +4,6 @@ import BackgroundLines from "./ui/background-lines";
 import { GlareCard } from "./ui/glare-card";
 import { Award, Users } from "lucide-react";
 import FlipWords from "./ui/flip-words";
-import ColourfulText from "@/components/ui/colourful-text";
 
 const AboutSection = () => {
   const words = ["Full-Stack", "Web", "Frontend", "Backend"];
@@ -20,7 +19,7 @@ const AboutSection = () => {
         </h2>
 
         {/* Grid Layout for Cards and Text */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-center items-center w-full max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-center items-center w-full max-w-7xl mx-auto place-items-center">
           {/* Experience Card */}
           <div className="text-sm md:text-xl lg:text-xl text-center text-gray-400 font-sans">
             I am an accomplished<FlipWords words={words}className="text-blue-300"/>developer with

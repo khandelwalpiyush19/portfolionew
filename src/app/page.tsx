@@ -4,10 +4,8 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import { Navbar } from "@/components/navbar";
-import ProjectSection from "@/components/project-section";
+import Project from "@/components/project-section";
 import SkillSection from "@/components/skill-section";
-// import TracingBeam from "@/components/ui/tracing-beam";
-import SparklesCore from "@/components/ui/sparkles";
 export default function Home() {
   return (
      <>
@@ -23,7 +21,7 @@ export default function Home() {
 
      <SkillSection/>
      
-     <ProjectSection/>
+     <Project/>
      <Contact/>
      {/* </TracingBeam> */}
      <Footer/> 
